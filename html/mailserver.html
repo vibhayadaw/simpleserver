@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mail Server</title>
+  <link rel="stylesheet" href="../css/mailserver.css">
+  <script src="../js/mailserver.js"></script>
+</head>
+
+<body>
+  <!-- Side navigation -->
+  <div class="sidenav">
+    <a href="#" onclick="newMail()"> New +</a>
+    <a href="#" onclick="getList()">Inbox</a>
+    <a href="#" onclick="getOutboxList()">Outbox</a>
+    <a href="#" onclick="getSentMailList()">Sent Mails</a>
+  </div>
+
+  <!-- Page content -->
+  <div class="main">
+    <!-- search bar starts here -->
+    <!-- search bar ends here -->
+
+    <!-- mails list start here -->
+    <table>
+      <tr>
+        <th>Sender</th>
+        <th>Subject</th>
+        <th>Date</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td><Date class="now"><%=new Date()%></Date></td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>Adam</td>
+        <td>Johnson</td>
+        <td>67</td>
+      </tr>
+    </table>
+    <!-- mail list ends here -->
+
+  </div>
+
+</body>
+
+</html>

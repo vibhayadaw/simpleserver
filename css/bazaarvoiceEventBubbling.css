@@ -1,0 +1,22 @@
+/* Add your css styles here */
+
+#a{
+  border: 3px solid black ;
+  padding: 50px;
+  width: 500px;
+  height: 500px;
+}
+
+#b{
+  border: 3px solid black ;
+  padding: 50px;
+  width: 300px;
+  height: 300px
+}
+
+#c{
+  border: 3px solid black ;
+  padding: 50px;
+  width: 100px;
+  height: 100px
+}
